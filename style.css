@@ -1,0 +1,152 @@
+
+/* Google fonts */
+
+/*Font:Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Font:Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/* universal selection */
+
+h1{
+    font-family: 'Bebas Neue',
+    cursive;
+    font-size:80px;
+    line-height: 80px;
+}
+h2{
+    font-family: 'Bebas Neue',
+    cursive;
+    font-size: 48px;
+    line-height: 48px;
+    color: #363958;
+;
+}
+header .top-banner img{
+    width: 30em;
+}
+h3{
+    font-family: 'Roboto',
+    sans-serif;
+    color: #363958;
+    font-size: 24px;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 900;
+    color: #FABE4C;
+}
+
+p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+.buy-button{
+    background:linear-gradient(180deg,#A4BC46,#85A019);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* header section */
+
+nav img{
+    width: 290px;
+    height: 40px;
+}
+header{
+    margin-bottom: 50px;
+}
+.title-1{
+    color:#FABE4C ;
+}
+.title-2{
+    color:#363958;
+}
+/* ---------main section-------------- */
+        /* women jacket */
+.women-jacket .jacket-bg{
+    background-color: rgba(211, 211, 211, 0.486);
+    width: 334px;
+    height: 327px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 10px;
+   
+  
+}
+.card{
+    border-radius: 20px;
+}
+.jacket-bg .w-jacket-1{
+    width: 293px;
+    height: 293px;
+    margin: 10px 0 0 15px;
+}
+.jacket-bg .w-jacket-2{
+    width: 203px;
+    height: 273px;
+    margin: 27px 78px 27px 53px;
+}
+.jacket-bg .w-jacket-3{
+    width: 210px;
+    height: 257px;
+    margin: 40px 65px 30px 59px;
+}
+.m-jacket-1{
+    width: 202px;
+    height: 270px;
+    margin:22px 72px 36px 60px; 
+}
+.m-jacket-2{
+    width: 245px;
+    height: 255px;
+    margin:35px 45px; 
+}
+.m-jacket-3{
+    width: 260px;
+    height: 280px;
+    margin: 25px 32px;
+}
+/* information section */
+.info-section{
+    margin-top: 165px;
+
+}
+.info-section img{
+    width: 78px;
+    height: 78px;
+    margin-right: 35px;
+}
+.info-banner img{
+    width: 600px;
+    height: 355px;
+}
+
+
+/* responsive css */
+
+ @media only screen and (max-width: 600px) {
+   .info-banner img {
+       width: 290px;
+       height: 175px;
+       
+   }
+} 
+@media only screen and (min-width: 600px) {
+   .header-section {
+       height: 715px;
+       background-color: #FFFBF0;
+
+   }
+}
